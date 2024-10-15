@@ -103,7 +103,8 @@ const site = app => {
 
         try {
 
-            var domain = await apicall.service('GET', 'https://nodebuilder.id:8443/api/v2/domains/' + req.body.domain_id, req)
+            var domain = await apicall.service('GET', req.server_host + '/api/v2/domains/' + req.body.domain_id, req)
+
             var setup = await SERVER.setup_cms(req, domain)
 
             if (setup.respond.status == 'success') {
