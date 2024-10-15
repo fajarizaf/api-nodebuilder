@@ -1,6 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  const Site = sequelize.define('sites', {
+  const Site = sequelize.define('Site', {
     subscription_id: {
       type: DataTypes.INTEGER(11)
     },

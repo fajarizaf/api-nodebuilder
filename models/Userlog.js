@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (sequelize, DataTypes) => {
-    const Userlog = sequelize.define('userlogs', {
+    const Userlog = sequelize.define('Userlog', {
         descriptions: {
             type: DataTypes.STRING(100),
             allowNull: false,

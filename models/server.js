@@ -1,6 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  const Server = sequelize.define('servers', {
+  const Server = sequelize.define('Server', {
     ip_address: {
       type: DataTypes.STRING(90)
     },

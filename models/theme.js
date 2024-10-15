@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (sequelize, DataTypes) => {
-  const Theme = sequelize.define('themes', {
+  const Theme = sequelize.define('Theme', {
     theme_author: {
       type: DataTypes.INTEGER(11),
       allowNull: false

@@ -1,6 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  const Theme_author = sequelize.define('theme_authors', {
+  const Theme_author = sequelize.define('Theme_author', {
     author_theme_name: {
       type: DataTypes.STRING(100)
     },

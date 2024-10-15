@@ -1,6 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  const Theme_categori = sequelize.define('theme_categoris', {
+  const Theme_categori = sequelize.define('Theme_categori', {
     categori_theme_name: {
       type: DataTypes.STRING(100)
     }

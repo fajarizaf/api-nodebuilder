@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (sequelize, DataTypes) => {
-  const UserProfile = sequelize.define('userprofiles', {
+  const UserProfile = sequelize.define('UserProfile', {
     UserCode: {
       type: DataTypes.STRING(30),
       primaryKey: true
