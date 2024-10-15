@@ -104,7 +104,7 @@ const site = app => {
         try {
 
             var domain = await apicall.service('GET', req.server_host + '/api/v2/domains/' + req.body.domain_id, req)
-
+            return res.json({ status: 'ini', response: $domain })
             var setup = await SERVER.setup_cms(req, domain)
 
             if (setup.respond.status == 'success') {
