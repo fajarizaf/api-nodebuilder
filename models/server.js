@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING(90)
     },
     host_name: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(200),
       allowNull: true,
     },
     plesk_username: {
