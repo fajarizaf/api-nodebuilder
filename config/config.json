@@ -1,24 +1,24 @@
 {
   "local": {
-    "username": "root",
-    "password": "mysql",
-    "database": "node_core_builder",
+    "username": "apinode",
+    "password": "Adayanghilang123@",
+    "database": "apinode",
     "host": "localhost",
     "dialect": "mysql",
     "port": "3306"
   },
   "development": {
-    "username": "root",
-    "password": "",
-    "database": "node_core_builder",
+    "username": "apinode",
+    "password": "Adayanghilang123@",
+    "database": "apinode",
     "host": "localhost",
     "dialect": "mysql",
     "port": "3306"
   },
   "production": {
-    "username": "root",
-    "password": "",
-    "database": "node_core_builder",
+    "username": "apinode",
+    "password": "Adayanghilang123@",
+    "database": "apinode",
     "host": "localhost",
     "dialect": "mysql",
     "port": "3306"
