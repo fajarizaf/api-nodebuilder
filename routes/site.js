@@ -107,8 +107,6 @@ const site = app => {
 
             var setup = await SERVER.setup_cms(req, domain)
 
-            return setup
-
             if (setup.respond.status == 'success') {
                 res.json({ status: 'success', response: 'setup cms', result: setup.respond.response })
             } else {
